@@ -1,93 +1,126 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gyak1.css">
     <title>Órarend</title>
 </head>
+
 <body>
 
-<!-- table>(tr>th{napok}*5)+(tr>(td[style="background-color:green"]+td{órák}*3+td[style="background-color:red"]))*8 -->
+    <!-- table>(tr>th{napok}*5)+(tr>(td[style="background-color:green"]+td{órák}*3+td[style="background-color:red"]))*8 -->
 
     <!-- table>(tr>th{napok}*5)+(tr>td{órák}*5)*8 -->
     <table>
         <thead>
-        <tr>
-            <th></th>
-            <th>Hétfő</th>
-            <th>Kedd</th>
-            <th>Szerda</th>
-            <th>Csütörtök</th>
-            <th>Péntek</th>
-        </tr>
+            <tr>
+                <th></th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>1.</td>
-            <td></td>
-            <td>Angol nyelv <footer>81</footer></td>
-            <td rowspan="3"></td>
-            <td></td>
-            <td rowspan="4">Asztfejl. <footer>HIDR</footer></td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Ofői. <footer>35</footer></td>
-            <td>Testnevelés <footer>TT2</footer></td>
-            
-            <td>Történelem <footer>35</footer></td>
-            
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Testnevelés <footer>TT2</footer></td>
-            <td>Történelem <footer>35</footer></td>
-            
-            <td>Matematika <footer>35</footer></td>
-            
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Matematika <footer>31</footer></td>
-            <td>Matematika <footer>31</footer></td>
-            <td rowspan="2">Ab-kez. <footer>56</footer></td>
-            <td rowspan="2">Angol nyelv <footer>81</footer></td>
-            
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>Fizika <footer>35</footer></td>
-            <td rowspan="2">Irodalom <footer>35</footer></td>
-            
-            
-            <td>Szkm. Angol <footer>34</footer></td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>Irodalom <footer>35</footer></td>
-            
-            <td rowspan="3">Webprog. <footer>HIDR</footer></td>
-            <td>Matematika <footer>35</footer></td>
-            <td rowspan="3">IKT <footer>57</footer></td>
-        </tr>
-        <tr>
-            <td>7.</td>
-            <td>Magyar <footer>35</footer></td>
-            <td>Angol nyelv <footer>81</footer></td>
-            
-            <td>Fizika <footer>35</footer></td>
-            
-        </tr>
-        <tr>
-            <td>8.</td>
-            <td>Szkm. Angol <footer>35</footer></td>
-            <td></td>
-            
-            <td>Testnevelés <footer>TT1</footer></td>
-            
-        </tr>
+            <tr>
+                <td>1.</td>
+                <td></td>
+                <td>Angol nyelv <footer>81</footer>
+                </td>
+                <td rowspan="3"></td>
+                <td></td>
+                <td rowspan="4">Asztfejl. <footer>HIDR</footer>
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Ofői. <footer>35</footer>
+                </td>
+                <td>Testnevelés <footer>TT2</footer>
+                </td>
+
+                <td>Történelem <footer>35</footer>
+                </td>
+
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Testnevelés <footer>TT2</footer>
+                </td>
+                <td>Történelem <footer>35</footer>
+                </td>
+
+                <td>Matematika <footer>35</footer>
+                </td>
+
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Matematika <footer>31</footer>
+                </td>
+                <td>Matematika <footer>31</footer>
+                </td>
+                <td rowspan="2">Ab-kez. <footer>56</footer>
+                </td>
+                <td rowspan="2">Angol nyelv <footer>81</footer>
+                </td>
+
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Fizika <footer>35</footer>
+                </td>
+                <td rowspan="2">Irodalom <footer>35</footer>
+                </td>
+
+
+                <td>Szkm. Angol <footer>34</footer>
+                </td>
+            </tr>
+            <tr>
+
+
+                <td>6.</td>
+                <td>Irodalom <footer>35</footer>
+                </td>
+
+                <td rowspan="3">Webprog. <footer>HIDR</footer>
+                </td>
+                <td>Matematika <footer>35</footer>
+                </td>
+                <td rowspan="3">IKT <footer>57</footer>
+                </td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>Magyar <footer>35</footer>
+                </td>
+                <td>Angol nyelv <footer>81</footer>
+                </td>
+
+                <td>Fizika <footer>35</footer>
+                </td>
+
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>Szkm. Angol <footer>35</footer>
+                </td>
+                <td></td>
+
+                <td>Testnevelés <footer>TT1</footer>
+                </td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Szabadság</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
+
 </html>

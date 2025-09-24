@@ -1,7 +1,7 @@
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
-    height: 50px;
+    height: 75px;
     text-align: center;
 }
 
@@ -14,5 +14,6 @@ footer{
     color: blue;
 }
 
-td:hover {background-color: whitesmoke;}
-th:hover {background-color: whitesmoke;}
+td:hover,th:hover{
+    background-color: whitesmoke;
+}
